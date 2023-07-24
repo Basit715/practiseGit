@@ -7,6 +7,9 @@ class Person:
           print(f"The name is {self.name}")
           print(f"The age is {self.age}")
           
+     def showTogether(self):
+          print(f"The name is {self.name} and the age is {self.age}")
+          
           
 p = Person("Basit", 25)
 p.show() 
