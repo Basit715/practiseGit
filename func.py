@@ -12,4 +12,5 @@ class Person:
           
           
 p = Person("Basit", 25)
+p1 = Person("iqra", 20)
 p.show() 
